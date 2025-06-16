@@ -34,8 +34,10 @@ public class carBuy
         System.out.println("Lets get your more details for a callback.");
         System.out.println("Kindly enter your phone number sir.");
         phone = s.nextLong();
+        s.nextLine();
         System.out.println("Now let us get your Email.");
         email = s.nextLine();
+
         // Email is not being taken from user, work it out.
         System.out.println("Thanks for your details.");
 
