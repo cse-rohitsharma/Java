@@ -15,7 +15,7 @@ public class paint_required {
         System.out.println(areaRoof);
         System.out.println(areaWall);
 
-        System.out.println("Kindly enter total paint required to paint 1 sq unit of room, in grams");
+        System.out.println("Kindly enter total grams of paint required to paint 1 sq unit of room");
         paintReq = sc.nextInt();
         System.out.println("Now enter the rate of 1 gram of paint");
         rate = sc.nextInt();

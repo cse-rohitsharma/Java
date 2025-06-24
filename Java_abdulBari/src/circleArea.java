@@ -1,5 +1,6 @@
 import java.util.*;
-
+// all calculations are going wrong
+// fix the logics
 public class circleArea {
     public static void main (String[] args) {
         int radius, diameter, length, breadth, height, radiusCone,slantHeight, side, bracket;
@@ -8,7 +9,7 @@ public class circleArea {
         System.out.println("Please enter the value of radius");
         radius = s.nextInt();
 
-        area = 3.145 * radius * radius;
+        area = 3.14 * radius * radius;
 
         System.out.println("The area of circle is " + area);
         System.out.println("Now enter the length of Rectangle");
