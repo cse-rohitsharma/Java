@@ -1,5 +1,4 @@
 package JavaPatterns;
-
 public class triangle {
     public static void main(String[] args){
         int i,j;
